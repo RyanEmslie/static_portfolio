@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Emslie - Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="portfolio.html" class="nav-link">
+              Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              Contact Me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="work">
+      <h1 class="lg-heading">
+        <span class="text-secondary">Dynamic Library Manager</span>
+      </h1>
+      <h2 class="sm-heading">
+        This project creates a library managment system web application that dynamically displays database entries. The web application allows functionality for listing, adding, updating, and deleting books, using JavaScript, Node.js, Express, Pug, and the SQL ORM Sequelize. If I were to rewrite this application I would use React library in place of the Pug templating engine. The final app is deployed on Heroku.
+      </h2>
+      <div class="projects">
+        <div class="item">
+            <img src="img/projects/project3a.PNG" alt="Project3" />
+        </div>
+        <div class="item">
+            <img src="img/projects/project3b.PNG" alt="Project3" />
+        </div>
+        <div class="item">
+          <img src="img/projects/project3c.PNG" alt="Project3" />
+          
+        </div>
+       
+        <div class="item">
+        
+          <a href="https://emslie-lib-manager.herokuapp.com/" class="btn-light"> <i class="fas fa-eye"></i> Project </a>
+          <a href="https://github.com/RyanEmslie/treehouse_unit10_exceeds" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2019
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
